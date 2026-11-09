@@ -4,23 +4,6 @@ const titles = ["헝거게임: 판엠의 불꽃", "헝거게임: 캣칭 파이�
 const ratings = [7.2, 7.4, 6.8, 6.9, 6.9];
 const years = [2012, 2013, 2014, 2015, 2023];
 
-// 즉시 실행 함수 만들기
-(function init(){
-    console.log("나는 함수다. 실행이 되었다");
-})();
-
-//화살표 함수로 함수 정의하기
-const gugudan = dan => {
-    for (let i=1; i<=9; i++){
-        console.log(`${dan} * ${i} = ${dan*i}`);
-    }
-}
-gugudan(7);
-
-const add = (num1, num2) => num1+num2;
-console.log(add(1234,5678));
-
-
 let sum = 0;
 for (let i = 0; i < ratings.length; i++) {
     sum = sum + ratings[i];
